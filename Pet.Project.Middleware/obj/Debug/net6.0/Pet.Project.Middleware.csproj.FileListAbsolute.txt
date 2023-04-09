@@ -1,0 +1,12 @@
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\bin\Debug\net6.0\Pet.Project.Middleware.deps.json
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\bin\Debug\net6.0\Pet.Project.Middleware.dll
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\bin\Debug\net6.0\Pet.Project.Middleware.pdb
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\Pet.Project.Middleware.csproj.AssemblyReference.cache
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\Pet.Project.Middleware.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\Pet.Project.Middleware.AssemblyInfoInputs.cache
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\Pet.Project.Middleware.AssemblyInfo.cs
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\Pet.Project.Middleware.csproj.CoreCompileInputs.cache
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\Pet.Project.Middleware.dll
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\refint\Pet.Project.Middleware.dll
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\Pet.Project.Middleware.pdb
+C:\Users\esteb\OneDrive\Escritorio\Pet Project\Pet.Project.Middleware\Pet.Project.Middleware\obj\Debug\net6.0\ref\Pet.Project.Middleware.dll
