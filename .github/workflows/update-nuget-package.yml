@@ -1,0 +1,24 @@
+name: Publish/Update Packages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+    - name: Install dependencies
+      run: dotnet restore ./Pet.Project.Middleware/Pet.Project.Middleware.csproj
+    - name: Build
+      run: dotnet build ./Pet.Project.Middleware/Pet.Project.Middleware.csproj --configuration Release --no-restore
+    - name: Pack
+      run: dotnet pack ./Pet.Project.Middleware/Pet.Project.Middleware.csproj -c Release
+    - name: Publish to GitHub packages 
+      run: dotnet nuget push ./Pet.Project.Middleware/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
