@@ -16,7 +16,7 @@ Add the following code to IServiceCollection in your Program.cs file to register
 builder.Services.AddGlobalMiddleware();
 ```
 
-then add the following code to the IApplicationBuilder to use the middlweware:
+then add the following code to the IApplicationBuilder to use the middleware:
 
 ```csharp
 app.UseGlobalMiddleware();
