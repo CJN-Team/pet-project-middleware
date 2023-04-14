@@ -10,16 +10,16 @@ To use the middleware, first install the **Pet.Project.Middleware** package from
 dotnet add package Pet.Project.Middleware
 ```
 
-Add the following code to IServiceCollection in your Program.cs file to register the middleware:
+Add the following code to IServiceCollection in your Program.cs file to register using the extension methods of the middleware:
 
 ```csharp
-builder.Services.AddScoped<GlobalMiddleware>();
+builder.Services.AddGlobalMiddleware();
 ```
 
-then add the following code to the WebApplication to use the middlweware:
+then add the following code to the IApplicationBuilder to use the middlweware:
 
 ```csharp
-app.UseMiddleware<GlobalMiddleware>();
+app.UseGlobalMiddleware();
 ```
 
 Note that the middleware is registered as scoped (AddScoped&lt;GlobalMiddleware>()) in the service container in the example above. This is recommended for middlewares that need access to scoped dependencies.
