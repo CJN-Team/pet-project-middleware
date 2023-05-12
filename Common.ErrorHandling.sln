@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.ErrorHandling", "Common.ErrorHandling\Common.ErrorHandling.csproj", "{D2F99865-C23C-4419-AAC6-88EE62B86784}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.ErrorHandling.UnitTests", "Common.ErrorHandling.UnitTests\Common.ErrorHandling.UnitTests.csproj", "{ECCB7325-E91B-46AC-A716-BB496C5620E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F99865-C23C-4419-AAC6-88EE62B86784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F99865-C23C-4419-AAC6-88EE62B86784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F99865-C23C-4419-AAC6-88EE62B86784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F99865-C23C-4419-AAC6-88EE62B86784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCB7325-E91B-46AC-A716-BB496C5620E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCB7325-E91B-46AC-A716-BB496C5620E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCB7325-E91B-46AC-A716-BB496C5620E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCB7325-E91B-46AC-A716-BB496C5620E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ECC5DB5-7897-444F-ACBF-5C751A6221EF}
+	EndGlobalSection
+EndGlobal

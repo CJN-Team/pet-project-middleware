@@ -15,10 +15,10 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Install dependencies
-      run: dotnet restore ./Pet.Project.Middleware/Pet.Project.Middleware.csproj
+      run: dotnet restore ./Common.ErrorHandling/Common.ErrorHandling.csproj
     - name: Build
-      run: dotnet build ./Pet.Project.Middleware/Pet.Project.Middleware.csproj --configuration Release --no-restore
+      run: dotnet build ./Common.ErrorHandling/Common.ErrorHandling.csproj --configuration Release --no-restore
     - name: Pack
-      run: dotnet pack ./Pet.Project.Middleware/Pet.Project.Middleware.csproj -c Release
-    - name: Publish to GitHub packages 
-      run: dotnet nuget push ./Pet.Project.Middleware/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+      run: dotnet pack ./Common.ErrorHandling/Common.ErrorHandling.csproj -c Release
+    - name: Publish to GitHub packages
+      run: dotnet nuget push ./Common.ErrorHandling/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
