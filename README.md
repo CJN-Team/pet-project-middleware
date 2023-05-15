@@ -1,13 +1,13 @@
-# Pet Project Middleware
+# Common Error Handling
 
-Pet.Project.Middleware is a middleware library for ASP.NET Core that provides a global exception handling mechanism. This middleware intercepts all exceptions thrown by controllers or other middlewares in the pipeline and returns a JSON payload that conforms to the Problem Details for HTTP APIs specification. It also maps some exception types to their corresponding HTTP status codes.
+Common Error Handling is a middleware library for ASP.NET Core that provides a global exception handling mechanism. This middleware intercepts all exceptions thrown by controllers or other middlewares in the pipeline and returns a JSON payload that conforms to the Problem Details for HTTP APIs specification. It also maps some exception types to their corresponding HTTP status codes.
 
 ## Installation
 
-To use the middleware, first install the **Pet.Project.Middleware** package from NuGet:
+To use the middleware, first install the **Common.ErrorHandling** package from NuGet:
 
 ```csharp
-dotnet add package Pet.Project.Middleware
+dotnet add package Common.ErrorHandling
 ```
 
 Add the following code to IServiceCollection in your Program.cs file to register using the extension methods of the middleware:
