@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using PredictionBot_DataManagement_Domain.Exceptions;
 
 namespace Common.ErrorHandling.Middleware.Common;
 
@@ -37,5 +38,6 @@ public static class ExceptionStatusCodeMap
         { typeof(AccessViolationException), StatusCodes.Status500InternalServerError },
         { typeof(MemberAccessException), StatusCodes.Status400BadRequest },
         { typeof(InvalidProgramException), StatusCodes.Status500InternalServerError },
+        { typeof(DataCollectionException), StatusCodes.Status400BadRequest },
     };
 };
